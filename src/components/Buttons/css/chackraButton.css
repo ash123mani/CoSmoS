@@ -1,0 +1,190 @@
+button:hover::before, button:hover::after {
+  width: 100%;
+}
+
+button:hover span::before, button:hover span::after {
+  height: 100%;
+}
+
+button:hover {
+  border: none;
+  background: #504d4d;
+  color: #fff;
+}
+
+/*******----- Chakra-1 -----*******/
+
+.chakra-1::before, .chakra-1::after {
+  transition-delay: 0.2s;
+}
+
+.chakra-1 span::before, .chakra-1 span::after {
+  transition-delay: 0s;
+}
+
+.chakra-1::before {
+  right: 0;
+  top: 0;
+}
+
+.chakra-1::after {
+  left: 0;
+  bottom: 0;
+}
+
+.chakra-1 span::before {
+  left: 0;
+  top: 0;
+}
+
+.chakra-1 span::after {
+  right: 0;
+  bottom: 0;
+}
+
+.chakra-1:hover::before, .chakra-1:hover::after {
+  transition-delay: 0s;
+}
+
+.chakra-1:hover span::before, .chakra-1:hover span::after{
+  transition-delay: 0.2s;
+}
+
+/* -----********** Chakra-2 ************---- */
+
+.chakra-2::before, .chakra-2::after {
+  transition-delay: 0.2s;
+}
+
+.chakra-2 span::before, .chakra-2 span::after {
+  transition-delay: 0s;
+}
+
+.chakra-2::before {
+  bottom: 0;
+  left: 0;
+}
+
+.chakra-2::after {
+  right: 0;
+  top: 0;
+}
+
+.chakra-2 span::before {
+  top: 0;
+  left: 0;
+}
+
+.chakra-2 span::after {
+  bottom: 0;
+  right: 0;
+}
+
+.chakra-2:hover::before, .chakra-2:hover::after {
+  transition-delay: 0.2s;
+}
+
+.chakra-2:hover span::before, .chakra-2:hover span::after{
+  transition-delay: 0s;
+}
+
+
+/*******-----Chakra-3-----********/
+.chakra-3::after {
+  bottom: 0;
+  left: 0;
+  transition-delay: 0.6s;
+}
+
+.chakra-3 span::after {
+  bottom: 0;
+  right: 0;
+  transition-delay: 0.4s;
+}
+
+.chakra-3::before {
+  top: 0;
+  right: 0;
+  transition-delay: 0.2s;
+}
+
+.chakra-3 span::before {
+  top: 0;
+  left: 0;
+  transition-delay: 0s;
+}
+
+.chakra-3:hover::after {
+  transition-delay: 0s;
+}
+
+.chakra-3:hover span::after {
+  transition-delay: 0.2s;
+}
+
+.chakra-3:hover::before {
+  transition-delay: 0.4s;
+}
+
+.chakra-3:hover span::before {
+  transition-delay: 0.6s;
+}
+
+/*********----- Chakra-4---- *********/
+
+.chakra-4::before {
+  bottom: 0;
+  right: 0;
+  transition-duration: 0.4s;
+}
+
+.chakra-4::after {
+  top: 0;
+  left: 0;
+  transition-duration: 0.4s;
+}
+
+.chakra-4 span::after {
+  top: 0;
+  left: 0;
+  transition-duration: 0.4s;
+}
+
+.chakra-4 span::before {
+  bottom: 0;
+  right: 0;
+  transition-duration: 0.4s;
+}
+
+/*******------- Charka-5 -----*******/
+.chakra-5::before {
+  bottom: 0;
+  left: 50%;
+  transition-duration: 0.4s;
+}
+
+.chakra-5::after {
+  top: 0;
+  left: 50%;
+  transition-duration: 0.4s;
+}
+
+.chakra-5 span::after {
+  top: 50%;
+  left: 0;
+  transition-duration: 0.4s;
+}
+
+.chakra-5 span::before {
+  top: 50%;
+  right: 0;
+  transition-duration: 0.4s;
+}
+
+.chakra-5:hover::before, .chakra-5:hover::after{
+  left: 0;
+}
+
+.chakra-5:hover span::before, .chakra-5:hover span::after{
+  top: 0;
+}

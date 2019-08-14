@@ -1,0 +1,9 @@
+.container {
+  height: 100vh;
+  padding: 30px;
+  background: #353535;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 50px;
+  grid-gap: 20px;
+}
